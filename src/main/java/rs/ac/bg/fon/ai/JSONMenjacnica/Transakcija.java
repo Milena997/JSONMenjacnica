@@ -6,7 +6,7 @@ public class Transakcija {
 	
 	private String izvornaValuta;
 	private String krajnjaValuta;
-	private double početniIznos; 
+	private double pocetniIznos; 
 	private double konvertovaniIznos; 
 	private Date datumTransakcije;
 	public String getIzvornaValuta() {
@@ -22,10 +22,10 @@ public class Transakcija {
 		this.krajnjaValuta = krajnjaValuta;
 	}
 	public double getPočetniIznos() {
-		return početniIznos;
+		return pocetniIznos;
 	}
-	public void setPočetniIznos(double početniIznos) {
-		this.početniIznos = početniIznos;
+	public void setPocetniIznos(double početniIznos) {
+		this.pocetniIznos = početniIznos;
 	}
 	public double getKonvertovaniIznos() {
 		return konvertovaniIznos;
@@ -42,7 +42,7 @@ public class Transakcija {
 	@Override
 	public String toString() {
 		return "Transakcija [izvornaValuta=" + izvornaValuta + ", krajnjaValuta=" + krajnjaValuta + ", početniIznos="
-				+ početniIznos + ", konvertovaniIznos=" + konvertovaniIznos + ", datumTransakcije=" + datumTransakcije
+				+ pocetniIznos + ", konvertovaniIznos=" + konvertovaniIznos + ", datumTransakcije=" + datumTransakcije
 				+ "]";
 	}
 	
