@@ -10,6 +10,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import com.google.gson.JsonObject;
 
 public class Main2 {
@@ -22,7 +23,7 @@ public class Main2 {
 	
 	public static void main(String[] args) {
 
-		Gson gson = new Gson();
+		Gson gson = new GsonBuilder().setPrettyPrinting().create();
 		Date datum= new Date("2020/09/07");
 		
 		Transakcija t1 = new Transakcija();

@@ -18,7 +18,7 @@ public class Main1 {
 
 	public static void main(String[] args) {
 		
-		Gson gson= new Gson();
+		Gson gson= new GsonBuilder().setPrettyPrinting().create();
 		
 		Transakcija t= new Transakcija();
 		

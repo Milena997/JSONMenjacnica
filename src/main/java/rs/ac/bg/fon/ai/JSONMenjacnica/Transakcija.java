@@ -9,6 +9,7 @@ public class Transakcija {
 	private double pocetniIznos; 
 	private double konvertovaniIznos; 
 	private Date datumTransakcije;
+	
 	public String getIzvornaValuta() {
 		return izvornaValuta;
 	}
